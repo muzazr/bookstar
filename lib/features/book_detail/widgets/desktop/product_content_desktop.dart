@@ -20,8 +20,6 @@ class ProductContentDesktop extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
       
-    final screenWidth = MediaQuery.of(context).size. width; 
-
     return SingleChildScrollView(
       padding: EdgeInsets.only(
         bottom: AppSpacing.xl * 4,
