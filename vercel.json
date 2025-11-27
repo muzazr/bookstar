@@ -3,7 +3,10 @@
   "buildCommand": "bash -lc 'set -e; if [ ! -d \"flutter\" ]; then git clone https://github.com/flutter/flutter.git -b stable --depth 1; fi && export PATH=\"$PATH:$(pwd)/flutter/bin\" && flutter --version && flutter pub get && flutter build web --release --no-tree-shake-icons'",
   "outputDirectory": "build/web",
   "framework": null,
-  "routes": [
-    { "src": "/(.*)", "dest": "/index.html" }
+  "rewrites": [
+    {
+      "source": "/(?!.*\\..*$)(.*)",
+      "destination": "/index.html"
+    }
   ]
 }
