@@ -42,7 +42,7 @@ class ProductContentDesktop extends StatelessWidget {
                 child: Row(
                   children: [
                     Text(
-                      '$screenWidth', //1536
+                      'Bookstar',
                       style: AppTextStyles.headline(context)
                           .copyWith(fontSize: 24),
                     ),
