@@ -11,6 +11,7 @@ Bookstar adalah aplikasi toko buku berbasis Flutter. Repo ini berisi source code
 
 ## Demo
 - Production (Netlify): https://bookstar-app.netlify.app/
+- Download App : https://drive.google.com/drive/folders/1MtffvZL_3uTiBFwpQSe4ErJM7YhofPBJ?usp=sharing
 
 ## API
 - https://bukuacak.vercel.app/api
