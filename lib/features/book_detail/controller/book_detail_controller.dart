@@ -35,8 +35,6 @@ class BookDetailController extends GetxController {
       isLoading.value = true;
       errorMessage.value = '';
 
-      // print('📡 Fetching book detail...');
-
       // Ambil buku pertama sebagai contoh detail
       final response = await _bookService.getBooks(page: 1);
 
