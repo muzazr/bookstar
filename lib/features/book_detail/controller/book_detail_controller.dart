@@ -45,8 +45,6 @@ class BookDetailController extends GetxController {
         final randomIndex = random.nextInt(response.books.length);
         currentBook.value = response.books[randomIndex];
 
-        print('✅ Loaded book: ${currentBook.value?.title}');
-
         // Auto fetch related content
         await fetchRelatedContent();
       } else {
